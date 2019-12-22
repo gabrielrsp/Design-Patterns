@@ -1,4 +1,4 @@
-package singleton;
+package creationalPatterns.singleton;
 
 public class TestSingleton {
 

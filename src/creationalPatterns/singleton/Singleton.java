@@ -1,8 +1,4 @@
-package singleton;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
+package creationalPatterns.singleton;
 
 public class Singleton {
 
