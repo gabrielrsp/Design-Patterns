@@ -1,6 +1,8 @@
 package behavioralPatterns;
 
-public class ATMMachine {
+import estruturalPatterns.proxy.*;
+
+public class ATMMachine implements GetATMData{
 
     ATMState hasCard;
     ATMState noCard;
@@ -57,4 +59,13 @@ public class ATMMachine {
     public ATMState getHasPin() { return hasCorrectPin; }
     public ATMState getNoCashState() { return atmOutOfMoney; }
 
+    @Override
+    public ATMState getATMData() {
+        return atmState;
+    }
+
+    @Override
+    public int getCashInMachine() {
+        return cashInMachine;
+    }
 }
