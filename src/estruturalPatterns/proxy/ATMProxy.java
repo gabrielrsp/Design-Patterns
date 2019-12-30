@@ -1,7 +1,7 @@
 package estruturalPatterns.proxy;
 
-import behavioralPatterns.ATMMachine;
-import behavioralPatterns.ATMState;
+import behavioralPatterns.state.ATMMachine;
+import behavioralPatterns.state.ATMState;
 
 public class ATMProxy implements GetATMData{
 

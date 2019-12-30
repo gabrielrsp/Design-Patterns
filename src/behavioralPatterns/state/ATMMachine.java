@@ -1,4 +1,4 @@
-package behavioralPatterns;
+package behavioralPatterns.state;
 
 import estruturalPatterns.proxy.*;
 

@@ -1,6 +1,6 @@
 package estruturalPatterns.proxy;
 
-import behavioralPatterns.*;
+import behavioralPatterns.state.ATMState;
 
 public interface GetATMData {
 

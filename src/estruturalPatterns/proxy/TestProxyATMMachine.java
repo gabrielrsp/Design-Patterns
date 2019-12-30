@@ -1,6 +1,6 @@
 package estruturalPatterns.proxy;
 
-import behavioralPatterns.ATMMachine;
+import behavioralPatterns.state.ATMMachine;
 
 public class TestProxyATMMachine {
 
